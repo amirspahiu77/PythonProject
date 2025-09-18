@@ -20,7 +20,7 @@ print(my_set)
 set_length = len(my_set)
 print(set_length)
 
-#example on how we can use sets
+#Examples on how we can use sets
 my_list = [1, 2, 2, 3, 3, 4, 5, 5]
 
 unique_set = set(my_list)
@@ -36,12 +36,6 @@ print(common_interests)
 
 #in operator
 colors = {"red", "green", "blue"}
-color = "green"
+color = "pink"
 print(color in colors)
 print(color not in colors)
-
-
-
-
-
-

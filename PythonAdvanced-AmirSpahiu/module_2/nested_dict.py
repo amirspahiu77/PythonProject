@@ -3,21 +3,22 @@ contact_information = {
     "Alice": {
         "phone_number": "555-1234",
         "email": "alice@gmail.com",
-        "adress": "1234 st",
+        "address": "1234 st",
         "birthday": "20/11/2000"
     },
-#Bob
+    #Bob
     "Bob": {
         "phone_number": "555-1234",
         "email": "bob@gmail.com",
-        "adress": "1234 st",
+        "address": "1234 st",
         "birthday": "20/11/2000"
+
     },
-#Eve
+    #Eve
     "Eve": {
         "phone_number": "555-1234",
         "email": "eve@gmail.com",
-        "adress": "1234 st",
+        "address": "1234 st",
         "birthday": "20/11/2000"
     }
 }

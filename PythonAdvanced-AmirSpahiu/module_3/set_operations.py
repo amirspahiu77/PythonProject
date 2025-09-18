@@ -28,13 +28,3 @@ sd_result_operator = set1 ^ set2
 
 print(sd_result_method)
 print(sd_result_operator)
-
-
-
-
-
-
-
-
-
-

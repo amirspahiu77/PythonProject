@@ -13,7 +13,7 @@ contact_info["Rroni"] = "1234-567"
 print(contact_info)
 
 #add a new contact
-contact_info["Alina"] = "55-5555"
+contact_info["Alina"] = "555-5555"
 print(contact_info)
 
 #delete an existing contact
@@ -29,12 +29,5 @@ values = contact_info.values()
 print(values)
 
 #items() method
-items = contact_info.values()
+items = contact_info.items()
 print(items)
-
-
-
-
-
-
-

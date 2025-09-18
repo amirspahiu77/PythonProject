@@ -1,7 +1,7 @@
 count = 1
 
-while count <= 4:
-    print("Interation: ", count)
+while count <= 5:
+    print("Iteration: ", count)
     count += 1
 
 #break
@@ -20,10 +20,4 @@ for score in scores:
     if score < 50:
         continue
     print(score)
-    
-
-
-
-
-
 

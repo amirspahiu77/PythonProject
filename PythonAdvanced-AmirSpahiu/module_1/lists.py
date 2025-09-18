@@ -1,5 +1,5 @@
-shopping_list = ["apples", "bananas", 3, 4.5]
-print (shopping_list)
+shopping_list = ["apples", "bananas", 3, 4.5, 3]
+print(shopping_list)
 
 to_do_list = ["math_homework", "research for biology", "clean the room", "fun"]
 first_item = to_do_list[0]
@@ -12,6 +12,7 @@ print(second_item)
 print(third_item)
 print(fourth_item)
 
+#add data
 shopping_list.append("3")
 print(shopping_list)
 
@@ -28,21 +29,3 @@ print(to_do_list)
 #updating data
 to_do_list[0] = "physics homework"
 print(to_do_list)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

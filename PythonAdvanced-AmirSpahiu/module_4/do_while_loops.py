@@ -4,6 +4,7 @@ while True:
     if user_input.isnumeric():
         number = int(user_input)
         if number > 0:
-        break
-    print("Invalid Input. Please try again.")
+            break
+
+    print("Invalid inpuut. Please try again.")
 print("You entered a valid positive number: ", number)
