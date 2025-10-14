@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("avgIQpercountry.csv")
+
+nobel_prizes_per_country = df.groupby('Continent')['Nobel Prices'].sum()
+
+no_of_continents = nobel_prizes_per_country.count()
+
+print(no_of_continents)
+
+colors = ['gold', 'lightcoral', 'yellow','thistle', 'orange','lightskyblue' 'aquamarine', 'burlywood']
+
+plt.figure(figsize=(10,10))
+
+nobel_prizes_per_country.plot(kind='pie', color=colors,autopct='%1.1f%%')
+
+plt.title('Distribution of Nobel Prizes by Continent')
